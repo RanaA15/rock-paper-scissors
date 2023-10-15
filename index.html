@@ -20,20 +20,36 @@
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <div class="layout">
-      
-      <div class="header">
-        <h1 class="title">ROCK PAPER SCISSORS</h1>
+    <div class="container">
+      <div class="score">
+        <div class="score_container1">
+          <h1 class="score_header">Score</h1>
+        </div>
+        <div class="score_container2">
+          <h1 class="score_num"></h1>
+        </div>
       </div>
-
-      <div class="icons">
-        <button id="Rock"><img src="rock.png" /></button>
-        <button id="Paper"><img src="paper.png" /></button>
-        <button id="Scissors"><img src="scissors.png" /></button>
+      <div class="layout">
+        <div class="header">
+          <h1 class="title">ROCK PAPER SCISSORS</h1>
+        </div>
+        <div class="icons">
+          <div class="icon-container">
+            <button id="Rock"><img src="rock.png" /></button>
+          </div>
+          <div class="icon-container">
+            <button id="Paper"><img src="paper.png" /></button>
+          </div>
+          <div class="icon-container">
+            <button id="Scissors"><img src="scissors.png" /></button>
+          </div>
+        </div>
       </div>
-
-      <div class="results">
-        <h1 id="result"></h1>
+      <div class="result">
+        <div class="result_container">
+          <h1 class="result_text">Result</h1>
+        </div>
+        <div class="result_outcome"></div>
       </div>
     </div>
   </body>
