@@ -15,7 +15,7 @@ body {
 }
 /* STRUCTURE */
 body{
-    border-color: purple;
+    /* border-color: purple; */
     border-style: solid;
     border-width: 10px;
     display: flex;
@@ -27,7 +27,7 @@ body{
     margin: 0;
     border-width: 5px;
     border-style: solid;
-    border-color: aqua;
+    /* border-color: aqua; */
     box-sizing: border-box;
     width: 99%;
     height: 98%;
@@ -35,21 +35,23 @@ body{
     display: flex;
     justify-content: space-evenly;
 
+
 }
 .score {
     border-style: solid;
-    border-color: yellow;
+    /* border-color: yellow; */
     border-width: 5px;
     box-sizing: border-box;
     height:100%;
     width: 33.33333%;
     align-items: center;
+    justify-content: center;
  
 
 }
 .result {
     border-style: solid;
-    border-color: gray;
+    /* border-color: gray; */
     border-width: 5px; 
     box-sizing: border-box;
     height:100%;
@@ -63,7 +65,7 @@ body{
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-     border-color: red;
+     /* border-color: red; */
     border-style: solid;
     border-width: 5px; 
     height:100%;
@@ -77,8 +79,8 @@ body{
     color: white;
     font-size: 4.8vh;
     font-weight: bold;
-    border-color: green;
-    border-style: solid;
+    /* border-color: green; */
+    /* border-style: solid; */
     border-width: 5px;
     padding: 10px;
     align-self: center;
@@ -88,8 +90,8 @@ body{
     color: white;
     font-size: 4.8vh;
     font-weight: bold;
-    border-color: green;
-    border-style: solid;
+    /* border-color: green; */
+    /* border-style: solid; */
     border-width: 5px;
     padding: 10px;
     align-self: center;
@@ -98,20 +100,20 @@ body{
     color: white;
     font-size: 4.8vh;
     font-weight: bold;
-    border-color: green;
-    border-style: solid;
+    /* border-color: green; */
+    /* border-style: solid; */
     border-width: 5px;
     padding: 10px;
 
 }
 .icons {
     border-style: solid;
-    border-color: orange;
+    /* border-color: orange; */
     border-width: 5px;
 }
 .icon-container {
     border-style: solid;
-    border-color: blue;
+    /* border-color: blue; */
     border-width: 5px;
     margin: 2vh;
     width: 22vh;
@@ -133,6 +135,7 @@ button {
     outline: none;
 }
 
-h1 {
+#player_score, #cpu_score,#result_outcome > h1 {
     color: white;
+    font-size: 6vh;
 }
